@@ -1,0 +1,64 @@
+/*
+cssはいろいろとごちゃごちゃしているので
+好きにコピペして使ってください。
+*/
+#right_box{
+    display: inline-block;
+    position: fixed;
+    width:50%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+    background-color:white;
+}
+#left_box{
+    display: inline-block;
+    position:fixed;
+    left: 50%;
+    top:0%;
+    width:50%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+    background-color:white;
+}
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#Skill_box{
+    border-radius: 10px;
+    padding:5px;
+    font-size:20px;
+    display:inline-block;
+    background-color:#cccccc;
+}
+#Skill_box_small{
+    border-radius: 10px;
+    padding:3px;
+    font-size:12px;
+    position:relative;
+    top:5px;
+    display:inline-block;
+    background-color:#cccccc;
+}
+input{
+    border-radius: 30px;
+    background-color:white;
+    font-size:50px;
+}
